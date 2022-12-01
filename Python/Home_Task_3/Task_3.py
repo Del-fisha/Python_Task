@@ -12,6 +12,6 @@ print(s)
 if s.count("o") <= 1:
     print("Буква 'о' - одна или не встречается")
 else:
-    for i in range(start, end + 1):
+    for i in range(end -1, start, -1):
         substring += s[i]
 print(substring)
